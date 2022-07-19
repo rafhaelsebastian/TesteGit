@@ -14,6 +14,24 @@ public class TesteGit {
 		
 		double resto = carronumero % pessoanumero;
 		
+		int resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o resultado? " );
+		
+		if (resposta == 0) {
+			JOptionPane.showConfirmDialog(null, "Divisão para pessoas deu " + divisao);
+		}else {
+			System.out.println("Não quis ver o resultado!");
+		}
+		
+		resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o resto da divisão? ");
+		if (resposta ==0) {
+			JOptionPane.showMessageDialog(null, "O resto da divisão eh: " + resto);
+		}else {
+			System.out.println("Não quis ver o resultado!! ");
+		}
+				
+		/*Deseja ver o resultado?*/
+		System.out.println(resposta);
+		
 		JOptionPane.showMessageDialog(null, " Divisão para pessoas deu " + divisao + " carros e sobrou " + resto + " carros " );
 		
 	}
