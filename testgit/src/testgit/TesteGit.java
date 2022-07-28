@@ -8,6 +8,7 @@ public class TesteGit {
 		
 		
 		
+<<<<<<< master
 		String nota1 = JOptionPane.showInputDialog("Informe a nota 1:");
 		String nota2 = JOptionPane.showInputDialog("Informe a nota 2:");
 		String nota3 = JOptionPane.showInputDialog("Informe a nota 3:");
@@ -32,6 +33,10 @@ public class TesteGit {
 		}
 					
 				
+=======
+		JOptionPane.showMessageDialog(null, " Divisão para pessoas deu " + divisao + " carros e sobrou " + resto + " carros " );
+		
+>>>>>>> bd619cc Aula 8.12 testada ok!!
 	}
 
 }
